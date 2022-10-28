@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* main */
+
+.container-main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-main{
+    position: relative;
+    margin: 3px 4px 0px 0px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+.label{
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    background-color: rgba(97,108,120,0.5);
+}
+
+/* footer */
+
