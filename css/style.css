@@ -11,7 +11,6 @@ body{
 /* main */
 
 main{
-    width: 100vw;
     height: calc(100vh - 95px);
     overflow-y: auto;
 }
@@ -20,6 +19,7 @@ main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .col-main{
@@ -55,7 +55,7 @@ footer{
 .row-footer{
     display: flex;
     justify-content: space-between;
-    padding: 15px 0 0 5px;
+    padding: 15px 0 5px 5px;
 }
 
 .col-footer{
