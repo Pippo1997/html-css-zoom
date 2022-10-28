@@ -52,8 +52,25 @@ footer{
 
 .row-footer{
     display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 0px 10px;
 }
 
-.col-sm{
+.col-footer{
     display: flex;
+    text-align: center;
+    color: white;
+    gap: 15px;
+}
+
+.font-size-25px{
+    font-size: 25px;
+}
+
+.green{
+    color: green;
+}
+
+.end-meeting{
+    height: 100%;
 }
