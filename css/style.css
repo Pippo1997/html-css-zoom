@@ -44,3 +44,16 @@ img{
 
 /* footer */
 
+footer{
+    height: 75px;
+    width: 100%;
+    background-color: rgba(34,34,34,255);
+}
+
+.row-footer{
+    display: flex;
+}
+
+.col-sm{
+    display: flex;
+}
