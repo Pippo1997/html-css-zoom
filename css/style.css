@@ -8,6 +8,22 @@ body{
     background-color: black;
 }
 
+/* header */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-header{
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    bottom: 5px;
+    background-color: rgba(97,108,120,0.5);
+}
+
 /* main */
 
 main{
@@ -18,18 +34,23 @@ main{
 .row-main{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .col-main{
     position: relative;
-    margin: 3px 4px 0px 0px;
+    margin: 5px 20px 0px 5px;
+    width: calc(100% / 8);
+}
+
+.content{
+    position: relative;
 }
 
 img{
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
 }
 
 .label{
