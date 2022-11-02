@@ -27,7 +27,7 @@ text-align: right;
 /* main */
 
 main{
-    height: calc(100vh - 145px);
+    height: calc(100vh - 125px);
     overflow-y: auto;
 }
 
@@ -35,11 +35,9 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .col-main{
-    position: relative;
     margin: 5px 20px 0px 5px;
     width: calc(100% / 8);
 }
@@ -70,13 +68,11 @@ footer{
     height: 75px;
     width: 100%;
     background-color: rgba(34,34,34,255);
-    margin-top: 20px;
 }
 
 .row-footer{
     display: flex;
     justify-content: space-between;
-    padding: 15px 0 5px 5px;
 }
 
 .col-footer{
@@ -84,6 +80,7 @@ footer{
     text-align: center;
     color: white;
     gap: 15px;
+    height: 75px;
 }
 
 .font-size-25px{
@@ -95,5 +92,8 @@ footer{
 }
 
 .end-meeting{
-    height: 100%;
+    color: red;
+    background-color: gray;
+    border-style: none;
+    cursor: pointer;
 }
