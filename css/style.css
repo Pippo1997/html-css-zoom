@@ -11,8 +11,8 @@ body{
 /* header */
 
 header{
-    display: flex;
-    justify-content: flex-end;
+text-align: right;
+    height: 50px;
 }
 
 .button-header{
@@ -27,7 +27,7 @@ header{
 /* main */
 
 main{
-    height: calc(100vh - 95px);
+    height: calc(100vh - 145px);
     overflow-y: auto;
 }
 
