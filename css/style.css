@@ -65,7 +65,6 @@ img{
 /* footer */
 
 footer{
-    height: 75px;
     width: 100%;
     background-color: rgba(34,34,34,255);
 }
@@ -80,23 +79,26 @@ footer{
     text-align: center;
     color: white;
     gap: 15px;
-    height: 75px;
     padding: 15px;
 }
 
 .col-footer-end{
     display: flex;
     text-align: center;
-    padding: 10px;
-    height: 75px;
-    background-color: gray;
+    background-color: rgba(34,34,34,255);
 }
 
 .end-meeting{
-    background-color: gray;
+    background-color: rgba(34,34,34,255);
     border-style: none;
     color: red;
     cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.end-meeting:hover {
+    background-color: gray;
 }
 
 .font-size-25px{
